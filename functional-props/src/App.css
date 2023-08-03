@@ -1,0 +1,18 @@
+.card {
+  border: 2px solid black;
+  height: 300px;
+  width: 250px;
+  background-color: red;
+  font-size: large;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+}
