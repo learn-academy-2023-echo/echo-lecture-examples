@@ -31,9 +31,9 @@
 - `<%` without with preform ruby logic to not be diplayed `%>`
 
 ### Views
-- **movie_recommendations.html.erb** :
-rails will look for this file when the control method `movie_recommendations` is called because we named them the same.
+- **game_recs.html.erb** :
+rails will look for this file when the control method `game_recs` is called because we named them the same.
 
-- we called the instance variable of `@recommendations` holding the string "These are movies that I promise you will like" and wrapped it in our erb ruby syntax
+- we called the instance variable of `@recommendations` holding the string "Here are some recommendations to checkout"
 
-- we also called on the instance variable of `@movies `that holds our array of movies which we then iterated through and returned each movie in a list
+- we also called on the instance variable of `@games `that holds our array of games which we then iterated through and returned each movie in a list
